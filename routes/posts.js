@@ -51,8 +51,6 @@ router.put("/goods/:goodsId/cart", async (req, res) => {
   res.json({ success: true });
 })
 
-
-// get에 관한 API? 
 const Posts = require("../schemas/posts");
 router.post("/posts", async (req, res) => {
         const { postId, user, password, title, content, createdAt } = req.body;
